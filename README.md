@@ -21,14 +21,14 @@ enum Color: String {
 enum Font: CGFloat {
 	// Size
 	case S  = 12.0
-		case M  = 16.0
-		case L  = 20.0
+	case M  = 16.0
+	case L  = 20.0
 
-		// Style
-		enum Style:String {
-			case Reguler    = "HiraKakuProN-W3"
-			case Bold       = "HiraKakuProN-W6"
-		}
+	// Style
+	enum Style:String {
+		case Reguler    = "HiraKakuProN-W3"
+		case Bold       = "HiraKakuProN-W6"
+	}
 
 	func name(style: Style) -> String {
 		return style.rawValue
